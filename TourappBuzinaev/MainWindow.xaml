@@ -13,10 +13,10 @@
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <Image Source="logo1.jpg" HorizontalAlignment="Left"></Image>
-        <TextBox HorizontalAlignment="Center" Text="TextBox" VerticalAlignment="Center" FontSize="30"/>
+        <TextBox HorizontalAlignment="Center" Text="Some text idk" VerticalAlignment="Center" FontSize="30"/>
         <Grid Background="#bae3e8" Panel.ZIndex="-2"></Grid>
         <Grid Grid.Row="2" Background="#445c93"></Grid>
-        <Frame NavigationUIVisibility="Hidden" Grid.Row="1" Name="MainFrame" ContentRendered="ContentRendered"></Frame>
+        <Frame NavigationUIVisibility="Hidden" Grid.Row="1" Name="MainFrame" ContentRendered="MF_ContentRendered"></Frame>
         <Button Content="Back" Name="BtnBack"  HorizontalAlignment="Right" Click="BtnBack_Click"/>
     </Grid>
 </Window>
